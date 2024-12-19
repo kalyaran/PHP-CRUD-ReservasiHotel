@@ -1,0 +1,130 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c2a3e0;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%; 
+}
+
+.header-text {
+    text-align: center;
+    display: flex;
+}
+
+.header-text h1 {
+    font-size: 20px;
+}
+
+.header-text p {
+    font-size: 14px;
+}
+
+.profile-icon img {
+    height: 40px;
+    width: 40px;
+}
+
+/* Layout */
+.layout {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #dfccfb;
+    padding: 20px 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .menu-header {
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #333;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-left: 5px solid transparent;
+    transition: 0.3s;
+}
+
+.sidebar ul li a.active, .sidebar ul li a:hover {
+    background-color: #c2a3e0;
+    color: white;
+    border-left-color: #815dc2;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fdf8f4;
+    overflow-y: auto;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #815dc2;
+}
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.room-card {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.room-card img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.room-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #c2a3e0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+

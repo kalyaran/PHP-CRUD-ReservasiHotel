@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../image/hotelbg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background-color: #d0bfff; /* Warna ungu */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px 25px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 85%;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+}
+
+.input-group img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+form input[type="submit"] {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* Warna tombol */
+    color: #4a4eb1; /* Warna teks tombol */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #d1d1f7; /* Warna saat hover */
+}
+
+form input::placeholder {
+    color: #888; /* Warna placeholder */
+}

@@ -1,0 +1,214 @@
+
+/*fasilitas*/
+
+/* Container layout untuk form dan tabel */
+.container {
+display: flex;
+gap: 1%; /* Jarak antara form dan tabel */
+justify-content: space-between;
+align-items: flex-start; /* Menyesuaikan tabel dan form ke atas */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #6a1b9a; /* Warna ungu */
+  margin-top: 10px;
+}
+
+h5 {
+  margin-bottom: 15px;
+  margin-left: 25px;
+  color: #000000;
+}
+
+/* Form Input Fasilitas Baru */
+.form-container {
+  width: 35%; 
+  max-width: 700px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+    color: #000000;
+    margin-top: 21px;
+}
+
+/* Styling form group dan input */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 200%;
+    padding: 20px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    max-width: 900px;
+}
+
+/* Styling button submit */
+button {
+    width: 100%; /* Membuat tombol mengikuti lebar form */
+    padding: 10px;
+    background-color: #6a1b9a;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #8e24aa;
+}
+
+h2 {
+  text-align: left;
+  color: #000000; /* Warna ungu */
+}
+
+
+/* Layout utama */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Form Input */
+form{
+  padding: 20px;
+  background-color: #EEEEEE; /* Latar belakang ungu muda */
+  border: 1px solid #d1c4e9;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #9AA6B2;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #B7B7B7; /* Warna ungu tua */
+}
+
+/* Tabel */
+table{
+  width: 100%; /* Lebar tabel */
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+/* Tabel */
+table {
+  width: 65%; /* Lebar tabel */
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabel */
+table{
+  width: 100%; /* Lebar tabel */
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+thead {
+  background-color: #bfbfca; /* Warna header tabel */
+  color: black;
+}
+
+thead th {
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 2%;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #EEEEEE; /* Warna baris genap */
+}
+
+tbody tr:hover {
+  background-color: #EEEEEE; /* Warna saat hover */
+}
+
+/* Link Aksi */
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.button-container{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+}
